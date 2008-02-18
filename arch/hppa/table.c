@@ -583,13 +583,13 @@ struct optab table[] = {
 
 { ASSIGN,	FOREFF|INAREG,
 	SOREG,	TBYTE,
-	SHINT,		TBYTE,
+	SHINT,	TBYTE,
 		0,	RDEST,
 		"\tstb\tAR,AL\n", },
 
 { ASSIGN,	FOREFF|INAREG,
 	SOREG,	THWORD,
-	SHINT,		THWORD,
+	SHINT,	THWORD,
 		0,	RDEST,
 		"\tsth\tAR,AL\n", },
 
@@ -601,7 +601,7 @@ struct optab table[] = {
 
 { ASSIGN,	FOREFF|INLL,
 	SOREG,	TLL,
-	SHLL,		TLL,
+	SHLL,	TLL,
 		0,	RDEST,
 		"\tstw\tAR,AL\n"
 		"\tstw\tUR,UL\n", },
